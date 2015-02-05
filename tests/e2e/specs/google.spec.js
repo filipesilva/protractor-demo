@@ -1,5 +1,9 @@
+// each spec describes something
 describe('Google Page', function(){
+
+  // and is composed of any number of features
   it('should google that for you', function() {
+    
     // here we navigate to the page
     // since this is a non-angular page, we need to use unwrapped webdriver
     // this is done via 'browser.driver' instead of just 'browser'
