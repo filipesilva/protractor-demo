@@ -1,7 +1,8 @@
 describe('Google Page', function(){
   it('should google that for you', function() {
+    // here we navigate to the page
     // since this is a non-angular page, we need to use unwrapped webdriver
-    // this is done via 'browser.driver' instead of 'just browser'
+    // this is done via 'browser.driver' instead of just 'browser'
     browser.driver.get('http://www.google.com');
 
     // we also have to find a way to detect the page is fully loaded
